@@ -1,0 +1,160 @@
+body{
+
+  position: relative;
+}
+
+.container-fluid{
+
+  padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a{
+
+  color: #1D2026;
+}
+
+
+ 
+#myNavbar{
+
+font-family:  'Federo', sans-serif;
+font-size: 20px;
+background-color: white;
+
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.home-newsletter {
+padding: 80px 0;
+background: #1D2026;
+}
+
+.home-newsletter .single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h2 {
+font-size: 22px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+.home-newsletter .single .form-control {
+height: 50px;
+background: white;
+border-color: transparent;
+border-radius: 50px 0 0 50px; }
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+.home-newsletter .single .btn {
+min-height: 50px; 
+border-radius: 0 50px 50px 0;
+background: #555;
+color: white;
+}
+
+.lgo{
+
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-top: 100px;
+
+}
+
+
+#Home {
+  padding-top:50px; 
+  background-color: #1D2026; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+
+  }
+
+#About {
+  padding-top:50px; 
+  margin-bottom: 50px; 
+ background-color: white;
+ height: 900px;
+}
+
+#Skills {
+  padding-top:50px; 
+  background-color: #8B008B;
+  height: 900px;
+}
+
+#Work {
+  padding-top:50px; 
+  background: url("https://static.pexels.com/photos/109088/pexels-photo-109088.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 900px;
+}
+
+#Contact {
+  padding-top:50px; 
+  background-color: white;
+
+  height: 900px;
+}
+
+
+#social{
+
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+
+  }
+
+#scl{
+
+  margin-bottom: 50px;
+}
+
+.social-icon{
+
+  color: white;
+  font-size: 40px;
+}
+
+#lptxt{
+
+  text-align: center;
+  color: white;
+}
+
+
+ .map {
+        min-width: 300px;
+        min-height: 300px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        background-color: #1D2026;
+        color: white;
+        height: 70px;
+        font-size: 27px;
+        padding: 10px;
+    }
