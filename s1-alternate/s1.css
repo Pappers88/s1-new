@@ -86,11 +86,10 @@ color: white;
 
   }
 
-#About {
-  padding-top:50px; 
-  margin-bottom: 50px; 
- background-color: white;
- height: 900px;
+#Fighters {
+
+ background-color: #1D2026;
+ 
 }
 
 #Skills {
@@ -158,3 +157,62 @@ color: white;
         font-size: 27px;
         padding: 10px;
     }
+
+
+  .con1, .con2, .con3, .con4, .con5, .con6{
+            height: 400px;
+            width: 300px;
+            background-color: #1D2026;
+            border-radius: 25px;
+        }
+        .fc1, .fc2, .fc3, .fc4, .fc5, .fc6{
+            height: 100%;
+            width: 100%;
+       
+        }
+        .fght{
+            font-family:  'Marcellus', serif;
+            color: white;
+            margin-top: 40px;
+            text-align: center;
+        }
+      .flip-container1{
+            perspective: 1000px;
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+        .flip-container1:hover .flipper1, .flip-container1.hover .flipper1{
+            transform: rotateY(180deg);
+        }
+        .flip-container1, .front1, .back1{
+            width: 300px;
+            height: 400px;
+        }
+        .flipper1{
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+        .front1, .back1{
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .front1{
+            z-index: 2;
+        }
+        .back1{
+            transform: rotateY(180deg);
+            background-color: #1D2026;
+        }
+
+        .fightp{
+
+          font-family: 'Marcellus', serif;
+          color: white;
+          text-align: center;
+          font-size: 30px;
+          margin-top: 200px;
+        }
+
