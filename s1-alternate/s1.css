@@ -89,31 +89,32 @@ color: white;
 #Fighters {
 
  background-color: #1D2026;
- 
-}
-
-#Skills {
   padding-top:50px; 
-  background-color: #8B008B;
-  height: 900px;
-}
-
-#Work {
-  padding-top:50px; 
-  background: url("https://static.pexels.com/photos/109088/pexels-photo-109088.jpeg") no-repeat center center fixed; 
+ padding-bottom: 50px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
 
-  height: 900px;
+#News {
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+
+#Media {
+   background-color: #1D2026;
+  padding-top:50px; 
+ padding-bottom: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #Contact {
   padding-top:50px; 
   background-color: white;
-
-  height: 900px;
 }
 
 
@@ -216,3 +217,15 @@ color: white;
           margin-top: 200px;
         }
 
+
+img{
+
+  margin-bottom: 20px;
+}
+
+#Footer{
+
+  background-color: #1D2026;
+  height: 100px;
+  width: 100%;
+}
