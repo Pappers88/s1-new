@@ -1,4 +1,4 @@
-jQuery(function ($) {
+$(document).ready(function ($) {
         function init_map1() {
             var myLocation = new google.maps.LatLng(51.8423000, 0.7114370);
             var mapOptions = {
@@ -16,7 +16,9 @@ jQuery(function ($) {
         init_map1();
     });
 
-
-$(document).ready(function(){
-        $("#myModal").modal('show');
-    });
+$(document).ready(function($) {  
+  function show_modal(){
+    $('#compModal').modal();
+  }
+  window.setTimeout(show_modal, 5000);
+});
