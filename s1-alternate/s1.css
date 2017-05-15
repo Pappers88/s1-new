@@ -240,3 +240,30 @@ img{
   font-size: 25px;
   margin-top: 50px;
 }
+
+.medp{
+
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+
+}
+
+#med {
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#nws{ 
+font-family: 'Abril Fatface', cursive;
+ }
+
+ #fighter1{
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+}
+
+#upcom{
+
+   font-family: 'Abril Fatface', cursive;
+}
