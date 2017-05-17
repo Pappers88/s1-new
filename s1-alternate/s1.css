@@ -279,3 +279,13 @@ font-family: 'Abril Fatface', cursive;
   font-family: 'Francois One', sans-serif;
 
   }
+
+#fighttitle{
+
+  text-align: center;
+}
+
+#ticketbtn{
+
+  margin-bottom: 20px;
+}
