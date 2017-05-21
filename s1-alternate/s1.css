@@ -274,18 +274,18 @@ font-family: 'Abril Fatface', cursive;
 
 }
 
-#modal-title1{
+.modal-title1{
 
   font-family: 'Francois One', sans-serif;
 
   }
 
-#fighttitle{
+.fighttitle{
 
   text-align: center;
 }
 
-#ticketbtn{
+#ticketbtn, #ticketbtn1, #ticketbtn2{
 
   margin-bottom: 20px;
 }
